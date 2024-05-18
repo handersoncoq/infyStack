@@ -1,1 +1,1 @@
-web: java -jar your-application.jar
+web: java -jar infyStack-0.0.1-SNAPSHOT.jar
