@@ -17,7 +17,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 import static org.springframework.web.bind.annotation.RequestMethod.DELETE;
 
 @AllArgsConstructor
-@CrossOrigin(origins = "*", allowedHeaders = "*", methods = { GET, POST, PUT, DELETE }, allowCredentials = "true")
+@CrossOrigin(originPatterns = "*", allowedHeaders = "*", methods = { GET, POST, PUT, DELETE }, allowCredentials = "true")
 @RestController
 @RequestMapping("/reply")
 public class ReplyController {

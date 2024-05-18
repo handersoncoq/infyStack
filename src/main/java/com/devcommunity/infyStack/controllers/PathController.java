@@ -20,7 +20,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
 import static org.springframework.web.bind.annotation.RequestMethod.DELETE;
 
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*", methods = { GET, POST, PUT, DELETE }, allowCredentials = "true")
+@CrossOrigin(originPatterns = "*", allowedHeaders = "*", methods = { GET, POST, PUT, DELETE }, allowCredentials = "true")
 @RequestMapping("/path")
 public class PathController {
 

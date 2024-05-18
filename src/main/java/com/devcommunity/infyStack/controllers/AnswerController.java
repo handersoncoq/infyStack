@@ -17,7 +17,7 @@ import javax.validation.Valid;
 import static org.springframework.web.bind.annotation.RequestMethod.*;
 
 @AllArgsConstructor
-@CrossOrigin(origins = "*", allowedHeaders = "*", methods = { GET, POST, PUT, DELETE }, allowCredentials = "true")
+@CrossOrigin(originPatterns = "*", allowedHeaders = "*", methods = { GET, POST, PUT, DELETE }, allowCredentials = "true")
 @RestController
 @RequestMapping("/answer")
 public class AnswerController {
